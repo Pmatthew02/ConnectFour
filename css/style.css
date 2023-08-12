@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.wrapper{
+    height: 35em;
+    width: 7em;
+    background-color: white;
+    position: absolute;
+    padding-left: 5px;
+    
+    transform: translateX(-50%);
+    left: 10%;
+    border-radius: 0.5em;
+}
+#winner{
+    color: palevioletred;
+}
+scoreBoard{
+    display: grid;
+    height: 1%;
+    grid-template-columns: 1fr 1fr;
+}
+#playerTurn{
+    margin: 1em 0 ;
+    text-align:right;
+}
+#playerTurn span{
+    font-weight: 600;
+}
+.startScreen{
+    position: absolute
+    top 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.startScreen button{
+    background-color: white;
+    font-size: 1.4em;
+    padding: 1em 2em;
+    border: none;
+    outline: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: darkolivegreen;
+    border:10px solid ;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    box-shadow: 0.4em 1em 2em 1em;
+}
+
+.tile{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+
+    background-color: white;
+    border-radius: 50px;
+    border: 5px;
+    
+}
+.purple-piece{
+background-color: violet;
+}
+.blue-piece{
+    background-color: darkblue;
+}
